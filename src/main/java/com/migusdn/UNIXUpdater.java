@@ -2,17 +2,21 @@ package com.migusdn;
 
 public class UNIXUpdater implements Updater {
     @Override
-    public String getCurrentVersion() {
+    public String getCurrentChromeVersion() {
         return null;
     }
 
     @Override
-    public String update() {
-        return null;
+    public void update() {
     }
 
     @Override
     public String findUsableVersion() {
+        return null;
+    }
+
+    @Override
+    public String getCurrentDriverVersion() {
         return null;
     }
 }
